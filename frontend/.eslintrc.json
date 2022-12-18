@@ -1,0 +1,41 @@
+{
+	"env": {
+	    "browser": true,
+	    "es2021": true,
+	    "jest/globals": true
+	},
+	"extends": [
+	    "eslint:recommended",
+	    "plugin:jest/recommended"
+	],
+	"parser": "@babel/eslint-parser",
+	"plugins": [
+	    "svelte3"
+	],
+	"overrides": [
+	    {
+		"files": [
+		    "*.svelte"
+		],
+		"processor": "svelte3/svelte3"
+	    }
+	],
+	"rules": {
+	    "indent": [
+		"error",
+		"tab"
+	    ],
+	    "linebreak-style": [
+		"error",
+		"windows"
+	    ],
+	    "quotes": [
+		"error",
+		"double"
+	    ],
+	    "semi": [
+		"error",
+		"never"
+	    ]
+	}
+    }
