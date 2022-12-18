@@ -7,6 +7,12 @@ This project is a simple implementation of a link shortening service.
 - login/registration (create links with different expiration time depending on whether user is logged in or not)
 - displaying a list of previously created links and their expiration time
 
+## Requirements
+*application has been tested with the following versions of environments*
+
+- Elixir >= 1.13
+- NodeJS >= 16.13.2
+- PostgreSQL >= 12.12
 
 ## Installation
 
@@ -37,6 +43,9 @@ Install all the required dependencies
 ```bash
 mix deps.get
 ```
+
+Enter your database address and credentials in the init() function of lib/db_manager.ex file
+Enter information related to cookie encryption into the lib/router.ex file (replace values "KEY", "SIGNING_SALT", "SECRET_KEY_BASE" in the call to Plug.session)
 
 build the project
 
