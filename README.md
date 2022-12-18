@@ -62,7 +62,7 @@ you can now run it from the _build directory
 
 ## Known issues
 
-The application has many avenues where it could be more efficient or structured differently (link access id generation for example, or the majority of frontend)
+The application has many avenues where it could be more efficient, more secure (I really shouldn't be hardcoding secrets, no you won't find them in this repo ;) or structured differently (link access id generation for example, or the majority of frontend) but it's fullfiling it's purpose, so I might improve it in the future.
 
 If you are going to run it on your server I advise you to put it behind a reverse proxy with rate limiting capabilities, since rate limiting hasn't been built in to the application
 
