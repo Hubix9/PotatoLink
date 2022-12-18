@@ -1,4 +1,4 @@
-# Potatolink
+# PotatoLink
 
 This project is a simple implementation of a link shortening service.
 
