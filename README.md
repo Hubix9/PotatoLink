@@ -62,6 +62,10 @@ you can now run it from the _build directory
 /your/path/to/the/project/directory/_build/dev/rel/potatolink/bin/potatolink start
 ```
 
+## Example screenshot
+![A screenshot showing white page, with big black PotatoLink text and domain name input box below it with label please enter the address you would like to shorten, below the input box is a button with text shorten link](/media/example_screenshot_potatolink.png?raw=true "Example screenshot")
+
+
 ## Known issues
 
 The application has many avenues where it could be more efficient, more secure (I really shouldn't be hardcoding secrets, no you won't find them in this repo ;) or structured differently (link access id generation for example, or the majority of frontend) but it's fullfiling it's purpose, so I might improve it in the future
