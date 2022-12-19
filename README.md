@@ -18,6 +18,10 @@ This project is a simple implementation of a link shortening service.
 
 First clone the repository.
 
+**Database setup**
+
+Execute commands contained in create_db_structure.sql file in order to setup a database for this project
+
 **Frontend setup**
 
 Enter the "frontend" directory
