@@ -77,4 +77,4 @@ The application has many avenues where it could be more efficient, more secure (
 If you are going to run it on your server I advise you to put it behind a reverse proxy with rate limiting capabilities, since rate limiting hasn't been built in to the application
 
 ## Disclaimer
-This project is not meant to run in an production environemnt
+This project is not meant to run in a production environment
